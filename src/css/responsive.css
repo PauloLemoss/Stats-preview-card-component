@@ -1,0 +1,107 @@
+@media(max-width: 768px){
+    body{
+      
+        justify-content: center;
+        align-items: center;
+        background-color:  hsl(233, 47%, 7%);
+        min-height: 100vh;
+        position: absolute;
+       
+    }
+    .card{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .information-card{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        
+        width: 100%;
+       
+       
+        
+    }
+    .image-desktop{
+        width: 200px;
+        position: relative;
+        margin-bottom: 700px;
+        margin-left: -290px;
+        margin-top: 300px;
+        height: 200px;
+        
+    }
+
+    .title-card{
+        width: 100%;
+        max-width: 300px;
+        font-size: 16px;
+        margin-top: 400px;
+        text-align: center;
+    }
+
+    .paragraph-card{
+    
+        text-align: center;
+        width: 100%;
+        max-width: 300px;
+        font-size: 12px;
+        line-height: 20px;
+      
+    }
+
+    ul{
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+     
+
+    }
+    
+
+    li{
+        position: relative;
+        font-size: 12px;
+        margin-top: 10px; 
+        text-align: center; /
+    }
+    
+      .companies{
+        top: -150px;
+       
+    }
+
+    .templates{
+        top: -120px;
+    }
+    .queries{
+        top: -100px;
+    }  
+}
+
+
+@media(min-width: 768px) and (max-width: 1024px){
+ 
+    .image-desktop{
+        position: relative;
+      margin-right: 300px;
+       
+}
+}
+
+@media(min-width: 820px){
+    ul{
+        
+        gap: 20px;
+    }
+
+
+}
+
